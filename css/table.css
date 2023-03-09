@@ -1,0 +1,64 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+th,td{
+    border: 1px solid #999;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table thead tr{
+    background-color: #008c8c;
+    color: #fff;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #eee;
+}
+
+table tbody tr:hover{
+    background-color: #ccc;
+}
+
+table tbody tr td:first-child{
+    color: #f40;
+}
+
+table tfoot tr td{
+    text-align: right;
+    padding-right: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ 
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+ 
